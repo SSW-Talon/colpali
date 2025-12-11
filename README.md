@@ -49,7 +49,7 @@ We used Python 3.11.6 and PyTorch 2.4 to train and test our models, but the code
 
 ```bash
 pip install colpali-engine # from PyPi
-pip install git+https://github.com/illuin-tech/colpali # from source
+pip install git+https://github.com/SSW-Talon/colpali # from source
 ```
 
 Mac users using MPS with the ColQwen models have reported errors with torch 2.6.0. These errors are fixed by downgrading to torch 2.5.1.
