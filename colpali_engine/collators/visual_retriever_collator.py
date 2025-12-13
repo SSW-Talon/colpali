@@ -4,6 +4,7 @@ from typing import Any, Dict, List, Union
 import torch
 from io import BytesIO
 from PIL.Image import Image
+from PIL import Image as PILImage
 
 from colpali_engine.data.dataset import ColPaliEngineDataset
 from colpali_engine.models.paligemma import ColPaliProcessor
